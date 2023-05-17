@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #65007e;
+    color:whitesmoke
+}
+
+.headerSection{
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.headerSection > h1{
+  text-align: center;
+}
+.descriptionSection{
+    padding: 0 25%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: large;
+}
+
+
+.generalMainButton{
+    background-color: white;
+    color: #65007e;
+    width: fit-content;
+    padding: 1rem;
+    margin:5% auto;
+    cursor: pointer;
+}
+
+.generalMainButton:hover{
+    background-color: rgb(219, 217, 213);
+}
+
+.songRank{
+    background-color: #be00fb;
+    padding: 10px;
+    float: left;
+}
+.songName{
+    margin-top: 2%;
+    padding-left: 50px;
+    float: inline-end;
+}
+.songItem{
+    overflow: hidden;
+    width: 50%;
+    float:left;
+    margin-top: 5%;
+}
+
+#songs{
+    border: 2px solid ;
+    margin: 0 25%;
+    padding: 1% 2%;
+    overflow: hidden;
+
+}
+
+@media screen and (max-width: 480px) {
+    .descriptionSection{
+        padding: 0 5px;
+        text-align: center;
+        font-size: large;
+    }
+
+    #songs{
+        border: 2px solid ;
+        margin: 0 5px;
+        padding: 1% 2%;
+    }
+    .songItem{
+        overflow: hidden;
+        width: 100%;
+        float:left
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .descriptionSection{
+        padding: 0 10%;
+        text-align: center;
+        font-size: large;
+    }
+    #songs{
+        border: 2px solid ;
+        margin: 0 10%;
+        padding: 1% 2%;
+    }
+  }
+
