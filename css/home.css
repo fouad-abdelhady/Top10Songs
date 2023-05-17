@@ -2,7 +2,8 @@
     padding: 0;
     margin: 0;
     background-color: #65007e;
-    color:whitesmoke
+    color:whitesmoke;
+    font-family: "Archivo", sans-serif;
 }
 
 .headerSection{
