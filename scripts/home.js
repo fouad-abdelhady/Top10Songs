@@ -11,7 +11,7 @@ songsList.forEach(song => {
     i++;
 });
   document.getElementById("songsContainer").append(songs);
- // document.getElementById('songsContainer').append(buildHideSongsList());
+ document.getElementById('songsContainer').append(buildHideSongsList());
 }
 function buildSongItem(rank, song){
    let songItem = document.createElement("div");
@@ -36,14 +36,12 @@ function buildHideSongsList(){
     hideButton.setAttribute("class", "generalMainButton");
     hideButton.setAttribute("id", "hideButton");
     hideButton.setAttribute("onclick", "hideSongsList()");
-    hideButton.innerHTML = "^ Hide";
+    hideButton.innerHTML = "Hide";
     return hideButton;
 }
 
 function hideSongsList(){
-    document.getElementById("hideButton").style.display = 'none';
-    document.getElementById("songs").style.display = 'none';
-    document.getElementById("showSongsBtn").style.display = 'block';
+   location.reload();
 }
 
 const songsList =[
